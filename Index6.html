@@ -4,9 +4,56 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./Style/Style6.css">
+    <title>Ejercicio 6</title>
 </head>
 <body>
+    <div class="father">
+        <a href="Index1.html"><button class="button" >Ejercicio 1</button></a>
+        <a href="Index2.html"><button class="button">Ejercicio 2</button></a>
+        <a href="Index3.html"> <button class="button">Ejercicio 3</button></a>
+        <a href="Index4.html"><button class="button">Ejercicio 4</button></a>
+        <a href="Index5.html"><button class="button">Ejercicio 5</button></a>
+        <a href="Index6.html"><button class="button">Ejercicio 6</button></a>
+        <a href="Index7.html"><button class="button">Ejercicio 7</button></a>
+        <a href="Index8.html"><button class="button">Ejercicio 8</button></a>
+        <a href="Index9.html"><button class="button">Ejercicio 9</button></a>
+        <a href="Index10.html"><button class="button">Ejercicio 10</button></a>
+        <a href="Index11.html"><button class="button">Ejercicio 11</button></a>
+        <a href="Index12.html"><button class="button">Ejercicio 12</button></a>
+        <a href="Index13.html"><button class="button">Ejercicio 13</button></a>
+        <a href="Index14.html"><button class="button">Ejercicio 14</button></a>
+    </div>
+    <main>
+        <div class="box">
+            <span></span>
+            <div class="content">
+                    <label for="tipo">Tipo de trabajador:</label>
+                    <select id="tipo">
+                      <option value="FIJO">FIJO</option>
+                      <option value="TEMPORAL">TEMPORAL</option>
+                    </select>
+                    <br><br>
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" required><br><br>
+                    <br><br>
+                    <label for="horas">Horas trabajadas:</label>
+                    <input type="number" id="horas" required><br><br>
+                    <br><br>
+                    <label for="deducciones">Total de deducciones:</label>
+                    <input type="number" id="deducciones" step="0.01" required><br><br>
+                    <br><br>
+                    <label for="bonificaciones">Total de bonificaciones:</label>
+                    <input type="number" id="bonificaciones" step="0.01" required>
+                    <br><br>
+                    <button type="button" onclick="calcularSalario()" class="calcular">Calcular</button>
+            </div>
+          </div>
+    </main>
+ 
     <script src="./Script/Script6.js"></script>
 </body>
 </html>

@@ -1,3 +1,5 @@
+//2. Elaborar un algoritmo que muestre un mensaje según la edad ingresada; niño (menor de 10 años), preadolescente (entre 10 y 15 años), un adolescente (entre 15 y 18 años), adulto (entre 18 y 50 años), adulto mayor (mayor de 50 años).
+
 function Edad() {
     const edad=document.getElementById("edad").value;
     const nombre=document.getElementById("nombre").value;
